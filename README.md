@@ -2,6 +2,10 @@
 
 This code can be used to check the current status of LibraryH3lp Chat and either display the LibraryH3lp Chat if online or the QuestionPoint Chat if not online. If LibraryH3lp is staffed during business hours, then QuestionPoint will only display during after-hours.
 
+## Prep
+
+To failover to QuestionPoint Chat, you will need to first create a QWIDGET. More information about creating a QWIDGET can be found on OCLC's website at: http://www.oclc.org/content/dam/oclc/services/brochures/213410usf_questionpoint_qwidget.pdf
+
 ## Installation and Configuration
 
 The application consists of 3 parts: a PHP script that checks the real-time status of LibraryHelp, a JS script that calls the PHP using an AJAX request and the HTML page where a link to open the Chat popup exists.
